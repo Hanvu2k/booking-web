@@ -1,0 +1,10 @@
+.active {
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.nav-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

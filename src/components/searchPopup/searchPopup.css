@@ -1,0 +1,48 @@
+.searchPopup-container {
+    background-color: #febb02;
+    border-radius: 16px;
+    width: 25%;
+    height: fit-content;
+    padding: 12px;
+}
+
+.searchPopup-title {
+    color: #55554a;
+}
+
+.searchPopup-form {
+    width: 100%;
+    overflow: hidden;
+}
+
+.searchPopup-destination input,
+.searchPopup-checkin input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0 10px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.desitnation-title,
+.checkin-title,
+.options-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.option-item {
+    padding-left: 10px;
+}
+
+.option-item-name {
+    font-size: 13px;
+    color: #6b6f23;
+}
+
+.option-item-input {
+    width: 20%;
+    outline: none;
+    padding-left: 6px;
+}

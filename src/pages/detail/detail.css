@@ -1,0 +1,69 @@
+.location-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.detail-distance {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.detail-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--third-color);
+}
+
+.detail-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.img-item {
+    height: 100%;
+    width: 100%;
+}
+
+.img-item .img-item-link {
+    height: 100%;
+    width: 100%;
+}
+
+.detail-description {
+    flex: 3;
+}
+
+.description-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.description-content {
+    font-size: 14px;
+}
+
+.detail-nine_night_price {
+    background-color: #ebf3ff;
+    flex: 1;
+    width: fit-content;
+}
+
+.nine_night_price-title {
+    font-size: 18px;
+    color: #555658;
+}
+
+.nine_night_price-content {
+    font-size: 14px;
+}
+
+.nine_night_price-number {
+    font-size: 20px;
+}
+
+.nine_night_price-number span:first-child {
+    font-weight: 700;
+    margin-right: 6px;
+}

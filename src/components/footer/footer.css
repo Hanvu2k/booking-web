@@ -1,0 +1,13 @@
+.footer-container {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.footer-item {
+    width: 20%;
+}
+
+.item-sub-name:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

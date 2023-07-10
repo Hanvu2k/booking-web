@@ -1,0 +1,79 @@
+/* search item */
+.searchList-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.searchList-item-img img {
+    height: 200px;
+    width: 192px;
+    padding: 8px;
+}
+
+.searchList-item-info {
+    width: 100%;
+}
+
+/* info room */
+.info-room-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.info-room-position {
+    font-size: 14px;
+}
+
+.info-room-transport {
+    color: white;
+    background-color: var(--third-color);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.info-room-description {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info-room-equipment {
+    font-size: 14px;
+}
+
+.info-room-cancel {
+    color: var(--third-color);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info-room-cancel-description {
+    font-size: 14px;
+    color: var(--third-color);
+}
+
+/* service */
+.info-rate-description {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-rate-point {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    padding: 4px;
+}
+
+.infor-price-number {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infor-price-description {
+    font-size: 13px;
+    color: #a495b6;
+}
