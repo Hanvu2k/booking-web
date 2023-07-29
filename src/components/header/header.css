@@ -1,6 +1,6 @@
 .header-container {
     position: relative;
-    height: 240px;
+    min-height: 200px;
 }
 
 .header-search {
@@ -26,6 +26,16 @@
     color: grey;
 }
 
+.search-box[type="number"] {
+    max-width: 70px;
+}
+
+.search-box::-webkit-outer-spin-button,
+.search-box::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .btn-search {
     margin: 6px 2rem 6px 0;
 }
@@ -37,6 +47,7 @@
 
 .date-position {
     position: absolute;
+    top: 0;
     left: 50%;
     transform: translate(-50%, 20%);
     border: 1px solid #eee !important ;

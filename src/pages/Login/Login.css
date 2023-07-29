@@ -1,0 +1,12 @@
+.form-input {
+    width: 200px;
+}
+
+.user-input {
+    gap: 8px;
+}
+
+.user-input input {
+    outline: none;
+    padding: 8px;
+}

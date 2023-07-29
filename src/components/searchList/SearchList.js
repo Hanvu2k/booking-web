@@ -1,5 +1,3 @@
-import React from "react";
-
 import SearchListItem from "./searchListItem/SearchListItem";
 
 import "./searchList.css";

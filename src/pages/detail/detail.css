@@ -67,3 +67,77 @@
     font-weight: 700;
     margin-right: 6px;
 }
+
+/* user info */
+
+.reserve-info {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.input-form {
+    gap: 8px;
+    margin: 12px;
+}
+.input-form input {
+    outline: none;
+    padding: 8px;
+}
+
+/* select room */
+.select-room {
+    width: 100%;
+}
+
+.hotels-suitables {
+    width: 100%;
+}
+
+.hotels-suitable {
+    width: 100%;
+    max-width: 440px;
+}
+
+.hotels-suitable h4 {
+    font-weight: 600;
+}
+
+.hotel-infos {
+    width: 100%;
+}
+
+.info-booking-user h4 {
+    font-weight: 400;
+}
+
+.number-guest {
+    font-size: 14px;
+}
+
+.number-guest span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-room label {
+    font-size: 12px;
+}
+
+/* total-bill */
+.total-bill {
+    width: 100%;
+}
+
+.payments {
+    max-width: 500px;
+}
+
+.payment-method select {
+    outline: none;
+    padding: 8px;
+}

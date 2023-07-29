@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+}
+
+.table-head {
+    background-color: darkcyan;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+}
+
+.table-head td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.table-body td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.table-body tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.status {
+    color: #488427;
+    padding: 0 8px;
+}
+
+.booked span {
+    background-color: #f69685;
+    padding: 4px;
+    border-radius: 8px;
+}

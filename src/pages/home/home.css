@@ -58,6 +58,7 @@
     color: #5a4944;
     font-size: 16px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .type-info {
@@ -105,7 +106,7 @@
     background-color: var(--primary-color);
     color: white;
     font-weight: 700;
-    padding: 2px;
+    padding: 2px 8px;
 }
 
 .hotel-type {

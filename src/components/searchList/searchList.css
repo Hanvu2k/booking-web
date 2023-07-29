@@ -1,3 +1,7 @@
+.searchList-container {
+    width: 100%;
+}
+
 /* search item */
 .searchList-item {
     border: 1px solid #ccc;
@@ -38,6 +42,10 @@
 .info-room-description {
     font-size: 14px;
     font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 300px;
 }
 
 .info-room-equipment {

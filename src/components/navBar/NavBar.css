@@ -1,3 +1,13 @@
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    text-decoration: none;
+    color: white;
+}
+
 .active {
     padding: 8px;
     border: 2px solid white;

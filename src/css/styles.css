@@ -47,6 +47,10 @@
     border-radius: 4px;
 }
 
+.btn-big {
+    padding: 12px 32px;
+}
+
 .btn-fullwidth {
     width: 100%;
 }
