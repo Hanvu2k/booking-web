@@ -16,7 +16,7 @@ const Home = () => {
         try {
             const fetchData = async () => {
                 const res = await fetch(
-                    `http://localhost:5000/api/v1/hotel/places`
+                    `https://bookingweb-server.onrender.com/api/v1/hotel/places`
                 );
 
                 const data = await res.json();
@@ -32,7 +32,7 @@ const Home = () => {
         try {
             const fetchData = async () => {
                 const res = await fetch(
-                    `http://localhost:5000/api/v1/hotel/places?key=type`
+                    `https://bookingweb-server.onrender.com/api/v1/hotel/places?key=type`
                 );
 
                 const data = await res.json();
@@ -48,7 +48,7 @@ const Home = () => {
         try {
             const fetchData = async () => {
                 const res = await fetch(
-                    `http://localhost:5000/api/v1/hotel/rating`
+                    `https://bookingweb-server.onrender.com/api/v1/hotel/rating`
                 );
 
                 const data = await res.json();

@@ -51,7 +51,7 @@ const Detail = () => {
         const fetchData = async () => {
             try {
                 const response = await fetch(
-                    ` http://localhost:5000/api/v1/hotel/detail?id=${id}`
+                    ` https://bookingweb-server.onrender.com/api/v1/hotel/detail?id=${id}`
                 );
                 const hotels = await response.json();
                 setHotelData(hotels.data);
@@ -75,7 +75,7 @@ const Detail = () => {
 
             try {
                 const response = await fetch(
-                    `http://localhost:5000/api/v1/hotel/rooms?id=${id}&date=${dateValue}`
+                    `https://bookingweb-server.onrender.com/api/v1/hotel/rooms?id=${id}&date=${dateValue}`
                 );
                 const rooms = await response.json();
                 setRooms(rooms.data);
@@ -164,7 +164,7 @@ const Detail = () => {
 
         try {
             const res = await fetch(
-                `http://localhost:5000/api/v1/transaction/booking?token=${token}`,
+                `https://bookingweb-server.onrender.com/api/v1/transaction/booking?token=${token}`,
                 {
                     method: "POST",
                     headers: {

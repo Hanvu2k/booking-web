@@ -18,7 +18,7 @@ const NavBar = ({ home, search, flight, carRent, taxi, login, register }) => {
 
             try {
                 const res = await fetch(
-                    ` http://localhost:5000/api/v1/auth/user?token=${token}`
+                    ` https://bookingweb-server.onrender.com/api/v1/auth/user?token=${token}`
                 );
 
                 const data = await res.json();

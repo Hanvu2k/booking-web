@@ -24,7 +24,7 @@ const SearchPopup = () => {
         try {
             // Send the POST request to the API
             const response = await fetch(
-                "http://localhost:5000/api/v1/hotel/search",
+                "https://bookingweb-server.onrender.com/api/v1/hotel/search",
                 {
                     method: "POST",
                     headers: {
