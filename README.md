@@ -8,14 +8,11 @@ There are functions to login, logout, search for hotel, view hotel details, orde
 # Demo link:
 https://spiffy-profiterole-5b6cd7.netlify.app/
 # Deployment guide (on local):
-1. Add .env
-```
-API_URL= xxxx
-```
-2. Install node module 
+
+1. Install node module 
 ```
 npm intall
 ```
-3. run dev
+2. run dev
 ```
 npm start
